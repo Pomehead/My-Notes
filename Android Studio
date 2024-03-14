@@ -1,0 +1,4 @@
+HAVE PROB WITH SENDING HTTP REQ? -> 
+  check serverside,
+  if ur using RETROFIT check for baseUrl.("http://http://192.168.1.81:5000") and api interface @GET("line_info") with appropriate paras (for example http://192.168.1.81:5000/line_info)
+  if ur http aint sending goto ur android manifest -> check permission and add this android:supportsRtl="true" TO SEND HTTP instead of https
